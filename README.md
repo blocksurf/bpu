@@ -4,7 +4,7 @@
 
 Transform Bitcoin Transactions into Virtual Procedure Call Units.
 
-![bpu](./bpu.png)
+![bpu](https://github.com/interplanaria/bpu/blob/master/bpu.png)
 
 
 # Features
