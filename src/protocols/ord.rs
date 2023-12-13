@@ -11,13 +11,6 @@ use bsv::{OpCodes, ScriptBit, Transaction};
 
 pub struct Ord;
 
-pub struct HandlerProps {
-    pub data_obj: BPU,
-    pub cell: Vec<crate::Cell>,
-    pub tape: Option<crate::Tape>,
-    pub tx: Option<Transaction>,
-}
-
 impl Ord {
     pub fn from_raw_tx(hex: &str) -> Result<BPU> {
         let config = ParseConfig {
